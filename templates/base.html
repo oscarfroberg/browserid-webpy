@@ -1,0 +1,17 @@
+$def with (content)
+<!doctype html>
+<html>
+<head>
+<title>$content.title</title>
+<script src="/static/browserid.js" type="text/javascript"></script>
+</head>
+<body onload="loadbutton()">
+<h1>This is a little BrowserID/web.py demonstration!</h1>
+<hr>
+
+$:content
+
+<hr>
+<p>copyleft 2012 oscarfroberg.com</p>
+<script src="https://browserid.org/include.js" type="text/javascript"></script>
+</body>
