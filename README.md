@@ -3,11 +3,11 @@ How to implement BrowserID with web.py
 
 Download repository:
 
-git clone https://oscarfroberg@github.com/oscarfroberg/browserid-webpy.git
+<code>git clone https://oscarfroberg@github.com/oscarfroberg/browserid-webpy.git</code>
 
 Run the python script:
 
-python server.py
+<code>python server.py</code>
 
 Navigate your browser to http://localhost:8080
 
