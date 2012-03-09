@@ -3,6 +3,9 @@ How to implement BrowserID with web.py
 
 Demo at: http://fierce-sunset-7206.herokuapp.com/
 
+Install instructions
+--------------------
+
 Download repository:
 
     $ git clone https://oscarfroberg@github.com/oscarfroberg/browserid-webpy.git
