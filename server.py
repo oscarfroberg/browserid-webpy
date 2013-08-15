@@ -18,7 +18,7 @@ def browserid():
         out = urllib.urlencode(dict(audience=web.ctx.host, 
             assertion=c.browserid_assertion))
         # send it to browserid.org to verify it:
-        o = json.loads(urllib.urlopen('https://browserid.org/verify', out).read())
+        o = json.loads(urllib.urlopen('https://verifier.login.persona.org/verify', out).read())
         if o['status'] == 'failure':
             return FalseStorage(o)
         else:

@@ -11,7 +11,7 @@ function browserid_login_callback(assertion){
   window.location.reload();
 }
 function browserid_login(){
-  navigator.id.getVerifiedEmail(browserid_login_callback);
+  navigator.id.get(browserid_login_callback);
 }
 function browserid_logout(){
   setCookie('browserid_assertion', 'x', -30);
